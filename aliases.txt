@@ -1,0 +1,17 @@
+//All my linux aliases
+
+
+
+alias s='subl .'
+alias cls='clear'
+alias blc='blih -u nicolas.klein@epitech.eu repository create'
+setacl(){
+   blih -u nicolas.klein@epitech.eu repository setacl $1 $2 $3
+}
+alias ga='git add *'
+alias gp='git push'
+alias op='xdg-open .'
+#git clone
+gc() {
+	git clone git@git.epitech.eu:/nicolas.klein@epitech.eu/$1
+}
